@@ -1,0 +1,39 @@
+.h2stacks {
+  text-align: center;
+}
+h1  {
+  text-align: center;
+}
+body {
+  background-image: url(../img/money.jpg);
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+h6 {
+  text-align: center;
+
+}
+.well {
+  background-color: #708775;
+}
+
+html {
+  height: 100%;
+}
+
+.jumbotron {
+  background-color: #708775;
+  margin-top: 10px;
+}
+
+h3 .currentStacks {
+  display: none;
+}
+
+button {
+  margin-top: 5px;
+}
+
+#currentStacks {
+  text-align: center;
+}

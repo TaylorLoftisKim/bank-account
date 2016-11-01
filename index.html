@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/styles.css" type="text/css">
+      <script src="https://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
+      <script src="js/scripts.js"></script>
+    <title>Bank Account</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Bank Account</h1>
+        <h6>give me ur moneyz</h6>
+      </div>
+        <div class="row">
+            <div class="col-lg-6 well form-group">
+              <h2 class="h2stacks">Register a new account:</h2>
+              <form id="initialDeposit">
+                <label for="name">Name</label>
+                <input id="name" class="form-control">
+                <label for="initial">Initial Deposit</label>
+                <input id="initial" class="form-control" type="number">
+                <button type="submit">Make initial deposit</button>
+              </form>
+            </div>
+        <div class="col-lg-6 well">
+          <h2 class="h2stacks">Deposite or withdraw funds:</h2>
+          <form id="transactions">
+            <label for="deposit">Deposit Amount</label>
+            <input id="deposit" class="form-control" type="number">
+            <label for="withdrawal">Withdrawal Amount</label>
+            <input id="withdrawal" class="form-control" type="number">
+            <button type="submit">Make deposit</button>
+          </form>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-lg-12 well">
+            <h2 class="h2stacks">Current stacks:</h2>
+            <h3 id="currentStacks"></h3>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
